@@ -1,0 +1,218 @@
+/* Main container */
+.container {
+  background-color: #e5f8f8; /* Light blue background */
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a clean look */
+}
+
+/* Title and dropdown */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.select-month,
+.search-box {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+.select-month:focus,
+.search-box:focus {
+  outline: none;
+  border-color: #f6c423; /* Highlighted border on focus */
+}
+
+/* Table */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+th {
+  background-color: #f6c423; /* Yellow background for headers */
+  color: #fff;
+  font-weight: bold;
+}
+
+td {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* Table row hover effect */
+tr:hover td {
+  background-color: #f1f1f1; /* Light gray hover effect */
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 0 5px;
+  background-color: #f6c423;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.pagination button:hover {
+  background-color: #f3b100; /* Darker yellow on hover */
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Disabled button color */
+  cursor: not-allowed;
+}
+
+/* Page info */
+.page-info {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.statistics-button {
+  padding: 10px 20px;
+  background-color: #f6c423;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.statistics-button:hover {
+  background-color: #f3b100;
+}
+
+.statistics-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(246, 196, 35, 0.5); /* Focus effect */
+}
+
+/* Statistics Card */
+.statistics-container {
+  margin-top: 20px;
+  background-color: #e0f7fa; /* Light teal background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-item {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+}
+
+.statistics-container h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Bar chart container */
+.barchart-container {
+  margin-top: 20px;
+  background-color: #e5f8f8; /* Light background for chart */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button to show bar chart */
+.bar-chart-button {
+  padding: 10px 20px;
+  background-color: #f6c423;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Adds space between statistics and bar chart button */
+}
+
+.bar-chart-button:hover {
+  background-color: #f3b100;
+}
+
+.bar-chart-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(246, 196, 35, 0.5); /* Focus effect */
+}
+
+/* Pie Chart Button */
+.pie-chart-button {
+  padding: 10px 20px;
+  background-color: #f6c423;
+  border-radius: 30px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; /* Adds space between bar chart button and pie chart button */
+}
+
+.pie-chart-button:hover {
+  background-color: #f3b100;
+}
+
+.pie-chart-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(246, 196, 35, 0.5); /* Focus effect */
+}
+
+/* Pie chart container */
+.piechart-container {
+  margin-top: 20px;
+  background-color: #e5f8f8; /* Light background for pie chart */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
